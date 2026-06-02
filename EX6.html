@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <style>
+        .product-card {
+            position: relative;
+            overflow: hidden;
+            background: #fff;
+            height: 100%;
+        }
+
+        .sale-badge {
+            position: absolute;
+            top: 5%;
+            right: -15%;
+            background-color: red;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9rem;
+            text-align: center;
+            width: 50%;
+            padding: 4px 0;
+            transform: rotate(45deg);
+            z-index: 5;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <div class="nav justify-content-lg-evenly  m-3">
+                <div>
+                    <nav class="navbar ">
+                        <a class="nav-link" href="#">Navbar</a>
+                        <a class="nav-link" href="#">home</a>
+                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Dropdown</a>
+                    </nav>
+                </div>
+
+                <div class="navbar">
+                    <input type="text" placeholder="Search">
+                    <button type="submit">Search</button>
+                </div>
+            </div>
+            <div>
+                <img src="Img/1920_530.png" class="img-fluid p-2" alt="Responsive image">
+            </div>
+            <div class="container p-4   ">
+                <div class="container">
+                    <h1>NEW PRODUCT</h1>
+                    <p>List product description</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                                <img src="Img/280_280.png" class="img-fluid" alt="Product image">
+                                <h3>Product</h3>
+                                <div style="display:flex; justify-content:space-between;">
+                                    <p><del>100.000 vnd</del></p>
+                                    <p style="color:orange;">80.000 vnd</p>
+                                </div>
+                                <button>&#128722;</button>
+                                <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                        <div class="col-sm-3">
+                                <img src="Img/280_280.png" class="img-fluid" alt="Product image">
+                                <h3>Product</h3>
+                                <div style="display:flex; justify-content:space-between;">
+                                    <p><del>100.000 vnd</del></p>
+                                    <p style="color:orange;">80.000 vnd</p>
+                                </div>
+                                <button>&#128722;</button>
+                                <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="product-card">
+                                <img src="Img/280_280.png" class="img-fluid" alt="Product image">
+                                <h3>Product</h3>
+                                <div style="display:flex; justify-content:space-between;">
+                                    <p><del>100.000 vnd</del></p>
+                                    <p style="color:orange;">80.000 vnd</p>
+                                </div>
+                                <button>&#128722;</button>
+                                <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="product-card">
+                                <div class="sale-badge">SALE</div>
+                                <img src="Img/280_280.png" class="img-fluid" alt="Product image">
+                                <h3>Product</h3>
+                                <div style="display:flex; justify-content:space-between;">
+                                    <p><del>100.000 vnd</del></p>
+                                    <p style="color:orange;">80.000 vnd</p>
+                                </div>
+                                <button>&#128722;</button>
+                                <button type="button" class="btn btn-primary">Xem chi tiết</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
